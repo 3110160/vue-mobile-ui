@@ -5,6 +5,7 @@ import index from './index/index.vue'
 import icon from './icon/index.vue'
 import font from './font/index.vue'
 import color from './color/index.vue'
+import button from './button/index.vue'
 
 Vue.use(Router);
 
@@ -26,6 +27,10 @@ export default new Router({
           path:'/color',
           name:'color',
           component:color
+      },{
+          path:'/button',
+          name:'button',
+          component:button
       }
   ]
 })
