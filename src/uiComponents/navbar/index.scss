@@ -1,1 +1,1 @@
-.w{  background-color: aquamarine;}
+.header{  display: flex;  flex-direction: row;  align-items: center;  justify-content: space-around;  height: 1rem;  width: 100%;  background-color: #ffffff;  overflow: hidden;  border-bottom: 0.01rem solid #e2e2e2;  .left{    flex: 1;  }  .mid{    flex: 3;  }  .right{    flex: 1;  }}
