@@ -1,0 +1,1 @@
+<template></template><script>    export default {        name: '22',        props: {            link: String,            title: String,            showNavbar: {                type: Boolean,                default: true            }        }    }</script><style>  @import "./index.scss";</style>

@@ -1,0 +1,1 @@
+<template>    <i :class="'icon icon_'+icon"></i></template><script>    export default {        name: 'xzc-icon',        props: {            icon:[String]        }    }</script><style lang="scss">  @import "./index.scss";</style>

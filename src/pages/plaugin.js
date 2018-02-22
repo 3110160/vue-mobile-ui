@@ -1,0 +1,1 @@
+import Layout from '@/uiComponents/layout/index.vue'import Icon from '@/uiComponents/icon/index.vue'const install = (Vue)=>{    "use strict";    //注册全局组件    Vue.component(Layout.name, Layout);    Vue.component(Icon.name, Icon);};//自动安装插件if (typeof window !== 'undefined' && window.Vue) {    install(window.Vue);}export default {install};
