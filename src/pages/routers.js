@@ -9,6 +9,7 @@ import button from './button/index.vue'
 import mask from './mask/index.vue'
 import Tips from './topTips/index.vue'
 import popup from './popup/index.vue'
+import toast from './toast/index.vue'
 
 Vue.use(Router);
 
@@ -46,6 +47,10 @@ export default new Router({
           path:'/popup',
           name:'popup',
           component:popup
+      },{
+          path:'/toast',
+          name:'toast',
+          component:toast
       }
   ]
 })

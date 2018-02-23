@@ -2,11 +2,8 @@
 
 >通过调用 this.$tips.show(options={
     msg:'',
-    icon:'',
-    type:[String] || 'error'
+    type:[String] || 'error'/'success'
     delay:[Number] || 1500
 })
-
->简便调用 this.$tips.show('msg')
 
 
