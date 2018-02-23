@@ -7,6 +7,7 @@ import font from './font/index.vue'
 import color from './color/index.vue'
 import button from './button/index.vue'
 import mask from './mask/index.vue'
+import topTips from './topTips/index.vue'
 
 Vue.use(Router);
 
@@ -36,6 +37,10 @@ export default new Router({
           path:'/mask',
           name:'mask',
           component:mask
+      },{
+          path:'/topTips',
+          name:'topTips',
+          component:topTips
       }
   ]
 })
