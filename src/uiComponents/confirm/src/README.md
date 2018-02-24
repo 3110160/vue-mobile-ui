@@ -3,10 +3,9 @@
 >通过调用 this.$confirm.show(options={
     msg:'',
     icon:'',
-    type:[String] || 'error'
-    delay:[Number] || 1500
+    cb:()=>{}
 })
 
->简便调用 this.$tips.show('msg')
+>简便调用 this.$confirm.show('msg')
 
 

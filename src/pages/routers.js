@@ -10,6 +10,7 @@ import mask from './mask/index.vue'
 import Tips from './topTips/index.vue'
 import popup from './popup/index.vue'
 import toast from './toast/index.vue'
+import confirm from './confirm/index.vue'
 
 Vue.use(Router);
 
@@ -51,6 +52,10 @@ export default new Router({
           path:'/toast',
           name:'toast',
           component:toast
+      },{
+          path:'/confirm',
+          name:'confirm',
+          component:confirm
       }
   ]
 })
