@@ -1,4 +1,4 @@
-# topTis
+# toast
 
 >通过调用 this.$tips.show(options={
     msg:'',
