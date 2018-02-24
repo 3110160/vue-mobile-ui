@@ -11,6 +11,7 @@ import Tips from './topTips/index.vue'
 import popup from './popup/index.vue'
 import toast from './toast/index.vue'
 import confirm from './confirm/index.vue'
+import dialog from './dialog/index.vue'
 
 Vue.use(Router);
 
@@ -56,6 +57,10 @@ export default new Router({
           path:'/confirm',
           name:'confirm',
           component:confirm
+      },{
+          path:'/dialog',
+          name:'dialog',
+          component:dialog
       }
   ]
 })
