@@ -1,6 +1,8 @@
 # dialog
 
->通过调用 this.$dialog.show(options={
+>通过调用 
+```
+this.$dialog.show(options={
     msg:'',
     icon:'',
     title:'',

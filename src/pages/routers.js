@@ -12,6 +12,7 @@ import popup from './popup/index.vue'
 import toast from './toast/index.vue'
 import confirm from './confirm/index.vue'
 import dialog from './dialog/index.vue'
+import loading from './loading/index.vue'
 
 Vue.use(Router);
 
@@ -61,6 +62,10 @@ export default new Router({
           path:'/dialog',
           name:'dialog',
           component:dialog
+      },{
+          path:'/loading',
+          name:'loading',
+          component:loading
       }
   ]
 })
