@@ -3,8 +3,8 @@ const chalk = require('chalk');
 const ora = require('ora');
 
 const spinner = ora('Loading unicorns').start();
-
-
+var r='ss';
+console.log(!r);
 
 console.log(chalk.green('Hello world!'));
 process.env.NODE_ENV = 'dev';
