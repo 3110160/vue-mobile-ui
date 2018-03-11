@@ -15,9 +15,7 @@ router.beforeResolve((to,from,next)=>{
 });
 router.beforeEach((to,from,next)=>{
     console.log('global beforeEach',to.path,from.path)
-    to.path==='/'
-        ?next('/mask')
-    :next();
+    next();
 });
 
 
