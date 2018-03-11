@@ -1,18 +1,20 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import index from './index/index.vue'
-import icon from './icon/index.vue'
-import font from './font/index.vue'
-import color from './color/index.vue'
-import button from './button/index.vue'
-import mask from './mask/index.vue'
-import Tips from './topTips/index.vue'
-import popup from './popup/index.vue'
-import toast from './toast/index.vue'
-import confirm from './confirm/index.vue'
-import dialog from './dialog/index.vue'
-import loading from './loading/index.vue'
+//异步加载组件
+const index =()=>import('./index/index.vue');
+const icon =()=>import('./icon/index.vue');
+const font = ()=>import('./font/index.vue');
+const color =()=>import('./color/index.vue');
+const button =()=>import('./button/index.vue');
+const mask =()=>import('./mask/index.vue');
+const Tips =()=>import('./topTips/index.vue');
+const popup =()=>import('./popup/index.vue');
+const toast =()=>import('./toast/index.vue');
+const confirm =()=>import('./confirm/index.vue');
+const dialog =()=>import('./dialog/index.vue');
+const loading =()=>import('./loading/index.vue');
+
 
 Vue.use(Router);
 
