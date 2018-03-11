@@ -17,7 +17,7 @@ import loading from './loading/index.vue'
 Vue.use(Router);
 
 export default new Router({
-  mode: 'history',
+  mode: 'hash',
   routes: [
       {
           path:'/',
